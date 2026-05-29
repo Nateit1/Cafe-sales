@@ -21,7 +21,8 @@ CafeSales is a two-part database project built on a real cafe sales dataset:
 
 ## 📸 Database Diagram
 
-<img src="screenshots/database-diagram.png" width="100%" alt="Database Diagram">
+<img width="847" height="577" alt="Picture1" src="https://github.com/user-attachments/assets/47934de3-8cfc-4b78-8e30-da0e414fb9f6" />
+
 
 ---
 
