@@ -86,38 +86,47 @@ All queries written and executed in SQL Server Management Studio on the live Caf
 
 ### ORDER BY — Single Sort DESC
 > Highest quantity orders first
+
 <img src="screenshots/q1a-single-sort-desc.png" width="100%" alt="Single sort DESC">
 
 ### ORDER BY — Double Sort DESC
 > Highest quantity + month, both descending
+
 <img src="screenshots/q1b-double-sort-desc.png" width="100%" alt="Double sort DESC">
 
 ### ORDER BY — Single Sort ASC
 > Lowest quantity orders first — C196 purchased Product 109 in Feb with quantity 10
+
 <img src="screenshots/q1c-order-asc.png" width="100%" alt="Single sort ASC">
 
 ### ORDER BY — Double Sort ASC
 > Lowest quantity + month, both ascending
+
 <img src="screenshots/q1d-double-sort-asc.png" width="100%" alt="Double sort ASC">
 
 ### GROUP BY — Monthly Quantity (customer_order)
 > March highest (2,649 units), May lowest (670 units)
+
 <img src="screenshots/q2-group-by-month.png" width="100%" alt="Group by month customer order">
 
 ### GROUP BY — Monthly Quantity (sales_order)
 > February highest (37,722 units), May lowest (33,447 units)
+
 <img src="screenshots/q3-group-by-sales-order.png" width="100%" alt="Group by month sales order">
 
 ### INNER JOIN — Product + Category
 > Joins all 88 products with their category type
+
 <img src="screenshots/q4-join-product-category.png" width="100%" alt="Join product and category">
 
 ### INNER JOIN — High Quantity Filter (>= 595)
 > Top 7 selling products with full product details
+
 <img src="screenshots/q5-join-high-quantity.png" width="100%" alt="Join high quantity">
 
 ### INNER JOIN — Low Quantity Filter (<= 205)
 > 7 lowest selling products with full product details
+
 <img src="screenshots/q6-join-low-quantity.png" width="100%" alt="Join low quantity">
 
 ---
