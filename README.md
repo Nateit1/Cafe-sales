@@ -184,12 +184,3 @@ cp .env.example .env
 # Run the API
 uvicorn main:app --reload
 ```
-
-Visit `http://localhost:8000/docs` for the interactive API docs.
-
----
-
-## 🔗 Links
-
-- 🌐 [Live API](https://cafe-sales.onrender.com)
-- 💼 [Portfolio](https://af19o4udzm.mobirisesite.com/)
